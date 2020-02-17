@@ -1,12 +1,12 @@
 
-let numbers = [1,2,3,4,5,1];
+let numbers = [1, 2, 3, 4, 5, 1];
 
 /* 
     Arrays - Propiedad
         .length - devuelve el número de posiciones que contiene el array
 */
 
-//console.log(numbers.length);
+console.log(numbers.length);
 
 /*
     Arrays - Métodos
@@ -45,21 +45,21 @@ let numbers = [1,2,3,4,5,1];
 //let newLength2 = numbers.unshift(0);
 //console.log(numbers);
 
-/*    
+/*
     .indexOf() - Devuelve el primer índice del elemento que coincida con el valor especificado, o -1 si ninguno es encontrado.
 */
 
 //console.log(numbers);
 //console.log(numbers.indexOf(1));
 
-/* 
+/*
     .lastIndexOf() - Devuelve el último índice del elemento que coincida con el valor especificado, o -1 si ninguno es encontrado.
 */
 
 //console.log(numbers);
 //console.log(numbers.lastIndexOf(1));
 
-/* 
+/*
     .reverse() - Invierte el orden de los elementos del array.
 */
 
@@ -67,8 +67,8 @@ let numbers = [1,2,3,4,5,1];
 //numbers.reverse();
 //console.log(numbers);
 
-/*       
-    .join('separador') - Devuelve un string con el separador que indiquemos, por defecto son comas 
+/*
+    .join('separador') - Devuelve un string con el separador que indiquemos, por defecto son comas
 */
 
 //console.log(numbers);
@@ -76,7 +76,7 @@ let numbers = [1,2,3,4,5,1];
 //console.log(arrayString);
 //console.log(numbers.join('-'));
 
-/*     
+/*
     .splice(a,b,items) - Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
         a - Indice de inicio
         b - Número de elementos (opcional)
@@ -90,7 +90,7 @@ let numbers = [1,2,3,4,5,1];
 //numbers.splice(4,0,10,23,54) - Si b vale 0 añade los elementos a partir de la posicion a y no elimina ninguno
 //console.log(numbers);
 
-/* 
+/*
     .slice(a,b) - Extrae elementos de un array desde el índice a hasta el índice b. Si no existe b lo hace desde a hasta el final, si no existe ni a ni b hace una copia del original.
 */
 
